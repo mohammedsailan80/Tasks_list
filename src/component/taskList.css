@@ -1,0 +1,21 @@
+
+table {
+    border-collapse: collapse;
+    border:1px solid black;
+    width: 100%;
+  }
+table.tableList {
+    border-bottom:none !important;
+  }
+  thead{
+    background-color: #000;
+    color:white;
+    text-align: center;
+  }
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  
